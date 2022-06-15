@@ -28,6 +28,7 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   direction: rtl;
+  text-align: justify;
 }
 
 html {
@@ -46,7 +47,7 @@ input:focus {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background-color: #94682A;
-  border-radius: 5px;
+  border-radius:2px;
 }
 
 /* For mozila */
@@ -56,11 +57,15 @@ input:focus {
 
 body {
   font-family: 'Samim', Fallback, sans-serif;
-  height: 5000px;
 }
 a {
   user-select: none;
 }
 img {
   pointer-events: none;
+}
+
+
+.max{
+  max-width: 1920px;
 }

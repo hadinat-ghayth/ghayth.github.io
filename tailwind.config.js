@@ -7,7 +7,12 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'basic-02': '#94682A',
+        'basic-01': '#cca35a',
+      },
+    },
     screens: {
       '2xl': {'max': '1535px'},
       // => @media (max-width: 1535px) { ... }
