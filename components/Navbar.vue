@@ -24,18 +24,26 @@
       </nav>
     </div>
     <div class="h-20 px-8 border-b-2 border-basic-02 flex justify-between items-center">
+      <!-- icons for responsive -->
+      <div class="icon-resp text-basic-02 hidden">
+        <i class="fa-solid fa-bars-staggered"></i>
+        <i class="fa-solid fa-xmark hidden"></i>
+      </div>
+      <!-- icons for responsive -->
       <nav class="">
-        <ul class="flex">
-          <li class="text-basic-01 ml-2">
-            <a class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02" href="/">ماهو غيث</a>
-          </li>
-          <li class="text-basic-01 ml-2 ">
-            <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="/">لماذا غيث</a>
-          </li>
-          <li class="text-basic-01 ml-2">
-            <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="/">المحتوى</a>
-          </li>
-        </ul>
+        <div class="list-nav-resp">
+          <ul class="list-nav flex">
+            <li class="text-basic-01 ml-2">
+              <a class="py-4 px-6 pr-0 text-lg transition-all font-semibold hover:text-basic-02" href="/">ماهو غيث</a>
+            </li>
+            <li class="text-basic-01 ml-2 ">
+              <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="/">لماذا غيث</a>
+            </li>
+            <li class="text-basic-01 ml-2">
+              <a class="py-4 px-6 text-lg transition-all font-semibold hover:text-basic-02" href="/">المحتوى</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <div class="">
         <NuxtLink to="/"><img class="w-20" src="../assets/img/logo.png"></NuxtLink>
